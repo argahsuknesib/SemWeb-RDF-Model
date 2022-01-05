@@ -61,6 +61,8 @@ public class App{
 
     public static String convertDateTime(String timeStamp){
 
+
+        
         //long epoch = 1636954288932760000L;
         //LocalDateTime currentDateTime = LocalDateTime.now();
         //LocalDateTime.ofEpochSecond(epochSecond, nanoOfSecond, offset)
@@ -69,6 +71,8 @@ public class App{
         DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy'T'hh:mm:ss");
         System.out.println("Current Date and Time: " + currentDateTime.format(format));
         */
+
+
         long epoch = (long) Double.parseDouble(timeStamp);
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
         String date = sdf.format(new Date (epoch/1000000)); 
@@ -82,6 +86,7 @@ public class App{
         model.setNsPrefix("sosa", sosa);
         model.setNsPrefix("om", om);
         model.setNsPrefix("time" ,time);
+        
 
         /*
         Property seas = model.createProperty("https://w3id.org/seas");
@@ -105,7 +110,7 @@ public class App{
            
            while((line = reader.readLine()) != null){
                 value = value + 1;
-                if(value == 10)
+                if(value == 30)
                     break;
                 if (line.isEmpty()) 
                     continue;
@@ -160,6 +165,7 @@ public class App{
                 
             }
             reader.close();
+            
         }
 
         catch(Exception exception){
@@ -169,6 +175,7 @@ public class App{
         storeToFuseki(model);
         //System.out.println(model);
         model.write(System.out, "turtle");
+
         
     }
 }
