@@ -6,6 +6,8 @@ import java.util.List;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.query.ResultSet;
+import org.apache.jena.rdf.model.Literal;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdfconnection.RDFConnection;
 import org.apache.jena.rdfconnection.RDFConnectionFactory;
@@ -37,18 +39,18 @@ public class BasicGetController {
         while(resultSet.hasNext()) {
             QuerySolution solution = resultSet.next();
             Resource subject = solution.getResource("subject");
-            Resource property = solution.getResource("property");
-            Resource object = solution.getResource("object");
+            // Resource property = solution.getResource("property");
+            // Literal object = solution.getLiteral("object");
             resultsSubject.add(subject.toString());
-            resultsSubject.add(property.toString());
-            resultsSubject.add(object.toString());
+            // resultsSubject.add(property.toString());
+            // resultsSubject.add(object.toString());
         }
 
         model.addAttribute("subject", resultsSubject);
-        model.addAttribute("property", resultsProperty);
-        model.addAttribute("object", resultsObject);
+        // model.addAttribute("property", resultsProperty);
+        // model.addAttribute("object", resultsObject);
 
-        // System.out.println(model);
+        System.out.println(model);
 
         execution.abort();
         return "Values for subject, property and object stored to the list.";

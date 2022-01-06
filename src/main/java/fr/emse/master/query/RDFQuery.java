@@ -20,7 +20,7 @@ public class RDFQuery {
         ResultSet resultSet = execution.execSelect();
         while(resultSet.hasNext()){
             QuerySolution solution = resultSet.next();
-            Resource subject = solution.getResource("s");
+            Resource subject = solution.getResource("subject");
             System.out.println("Subject is : " + subject);
         }
         execution.close();
