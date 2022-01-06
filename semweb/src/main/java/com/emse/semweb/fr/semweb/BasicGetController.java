@@ -21,9 +21,9 @@ public class BasicGetController {
 
     List<String> resultsSubject = new ArrayList<String>();
     List<String> resultsObject = new ArrayList<String>();
-    List<String> resultsProperty = new ArrayList<String>();
+    List<String> resultsPredicate = new ArrayList<String>();
 
-    @RequestMapping(value = "/getValues", method = RequestMethod.GET)
+    @RequestMapping(value = "/getValues", method = RequestMethod.GET, produces="application/json" )
     public String getValues(Model model) {
         String datasetName = "ds";
         String datasetURL = "http://localhost:3030/" + datasetName;
@@ -39,15 +39,15 @@ public class BasicGetController {
         while(resultSet.hasNext()) {
             QuerySolution solution = resultSet.next();
             Resource subject = solution.getResource("subject");
-            // Resource property = solution.getResource("property");
+            Resource predicate = solution.getResource("predicate");
             // Literal object = solution.getLiteral("object");
             resultsSubject.add(subject.toString());
-            // resultsSubject.add(property.toString());
-            // resultsSubject.add(object.toString());
+            resultsPredicate.add(predicate.toString());
+            // resultsObject.add(object.toString());
         }
 
         model.addAttribute("subject", resultsSubject);
-        // model.addAttribute("property", resultsProperty);
+        model.addAttribute("predicate", resultsPredicate);
         // model.addAttribute("object", resultsObject);
 
         System.out.println(model);

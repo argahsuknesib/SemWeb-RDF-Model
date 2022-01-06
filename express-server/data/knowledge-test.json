@@ -1,0 +1,58 @@
+{ "head": {
+    "vars": [ "subject" , "predicate" , "object" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "5" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "26.3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "20" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      }
+    ]
+  }
+}

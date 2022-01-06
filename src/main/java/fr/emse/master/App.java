@@ -31,7 +31,7 @@ public class App{
     final static String qudt = "http://qudt.org/1.1/schema/qudt#";
     
     public static void storeToFuseki(Model model){
-        String dataSetName = "ds";
+        String dataSetName = "dataset";
         String datasetURL = "http://localhost:3030/" + dataSetName;
         String sparqlEndpoint = datasetURL + "/sparql";
         String sparqlUpdate = datasetURL + "/update";
@@ -110,7 +110,7 @@ public class App{
            
            while((line = reader.readLine()) != null){
                 value = value + 1;
-                if(value == 30)
+                if(value == 10000)
                     break;
                 if (line.isEmpty()) 
                     continue;

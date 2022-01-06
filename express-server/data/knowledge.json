@@ -1,0 +1,1008 @@
+{ "head": {
+    "vars": [ "subject" , "predicate" , "object" ]
+  } ,
+  "results": {
+    "bindings": [
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "5" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b0" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "26.3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b1" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "20" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b2" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b3" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/8aa60f58-fc6f-49e2-a53a-f5cc96bb9021" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S423" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3904" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b4" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b5" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "10" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b5" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b5" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b6" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/140ade6c-4418-4d86-a14e-25b7db5ae83b" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S432" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4372" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b7" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b8" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b8" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:38:19" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b9" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "12" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b9" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b9" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b10" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/8aa60f58-fc6f-49e2-a53a-f5cc96bb9021" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S423" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/370" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b11" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b12" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b12" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:37:33" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b13" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b13" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:31:53" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b14" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b14" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:37:44" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b15" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b15" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:39:12" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b16" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "49.1" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b16" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b16" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/gramPerKilogram" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b17" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b17" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:42:44" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b18" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b18" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:38:37" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b19" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/8aa60f58-fc6f-49e2-a53a-f5cc96bb9021" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S423" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/5105" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b20" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b21" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "8" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b21" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b21" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b22" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b22" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:37:02" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b23" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/757e0b46-0efe-4f36-bf2c-e8008e49d950" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/Hall4Nord" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/9995" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b24" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b25" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "49.1" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b25" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b25" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/gramPerKilogram" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b26" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "5" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b26" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b26" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b27" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/757e0b46-0efe-4f36-bf2c-e8008e49d950" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/Hall4Nord" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4413" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b28" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b29" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "23.8" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b29" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b29" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b30" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/6bd134b6-339c-4168-9aeb-ae7d0f236851" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S405" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/397" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b31" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b32" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "22.2" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b32" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b32" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b33" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b33" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:43:28" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b34" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/24a89ddc-23c8-4d9f-9f5e-cff4eba32fb5" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S424" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/641" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b35" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b36" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b36" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b36" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b37" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b37" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:35:06" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b38" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b38" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:36:44" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b39" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b39" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:36:43" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b40" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b40" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b40" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b41" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b41" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:36:07" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b42" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b42" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:32:46" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b43" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/24a89ddc-23c8-4d9f-9f5e-cff4eba32fb5" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S424" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/4243" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b44" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b45" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b45" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:33:47" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b46" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "38.4" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b46" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b46" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/gramPerKilogram" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b47" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b47" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b47" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b48" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/f9538ac8-4fdb-4049-9ff6-ac4855e3bcc5" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S431F" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/7289" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b49" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b50" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/8aa60f58-fc6f-49e2-a53a-f5cc96bb9021" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S423" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3489" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b51" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b52" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "10" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b52" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b52" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/LuminousFluxUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b53" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b53" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:42:44" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b54" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/24a89ddc-23c8-4d9f-9f5e-cff4eba32fb5" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S424" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/3590" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b55" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "luminosity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "temperature" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/observedProperty" } ,
+        "object": { "type": "uri" , "value": "humidity" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/resultTime" } ,
+        "object": { "type": "bnode" , "value": "b56" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/Observation" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/madeBySensor" } ,
+        "object": { "type": "uri" , "value": "sensor/70345659-3f50-49af-98e7-bbc93961df92" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasFeatureOfInterest" } ,
+        "object": { "type": "uri" , "value": "emse/fayol/e4/S425" }
+      } ,
+      { 
+        "subject": { "type": "uri" , "value": "Observation/2662" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/ns/sosa/hasResult" } ,
+        "object": { "type": "bnode" , "value": "b57" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b58" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b58" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:39:47" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b59" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b59" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:39:04" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b60" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b60" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:37:28" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b61" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "46.3" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b61" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b61" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/gramPerKilogram" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b62" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.w3.org/2006/time#Instant" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b62" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/2006/time#inXSDDateTimeStamp" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#dateTimeStamp" , "value": "11/15/2021 06:39:48" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b63" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "19.25" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b63" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b63" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/CelsiusTemperatureUnit" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b64" } ,
+        "predicate": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue" } ,
+        "object": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#double" , "value": "26.81" }
+      } ,
+      { 
+        "subject": { "type": "bnode" , "value": "b64" } ,
+        "predicate": { "type": "uri" , "value": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" } ,
+        "object": { "type": "uri" , "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/Measure" }
+      }
+    ]
+  }
+}
