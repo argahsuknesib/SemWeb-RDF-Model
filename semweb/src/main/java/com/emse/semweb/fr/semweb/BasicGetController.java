@@ -23,13 +23,13 @@ public class BasicGetController {
 
     @RequestMapping(value = "/getValues", method = RequestMethod.GET)
     public String getValues(Model model) {
-        String datasetName = "";
-        String datasetURL = "http://localhost:3030/datasetName";
+        String datasetName = "ds";
+        String datasetURL = "http://localhost:3030/" + datasetName;
         String sparqlEndpoint = datasetURL + "/sparql";
         String sparqlQuery = datasetURL + "/query";
         String graphStore = datasetURL + "/data";
 
-        String queryOne = "SELECT DISTINCT ?subject ?property ?object {?subject ?property ?object}";
+        String queryOne = "SELECT ?subject ?predicate ?object WHERE {?subject ?predicate ?object} LIMIT 100";
 
         RDFConnection connection = RDFConnectionFactory.connect(sparqlEndpoint, sparqlQuery, graphStore);
         QueryExecution execution = connection.query(queryOne);
@@ -43,9 +43,12 @@ public class BasicGetController {
             resultsSubject.add(property.toString());
             resultsSubject.add(object.toString());
         }
+
         model.addAttribute("subject", resultsSubject);
         model.addAttribute("property", resultsProperty);
         model.addAttribute("object", resultsObject);
+
+        // System.out.println(model);
 
         execution.abort();
         return "Values for subject, property and object stored to the list.";

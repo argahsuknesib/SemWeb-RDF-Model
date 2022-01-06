@@ -31,7 +31,7 @@ public class App{
     final static String qudt = "http://qudt.org/1.1/schema/qudt#";
     
     public static void storeToFuseki(Model model){
-        String dataSetName = "dataset";
+        String dataSetName = "ds";
         String datasetURL = "http://localhost:3030/" + dataSetName;
         String sparqlEndpoint = datasetURL + "/sparql";
         String sparqlUpdate = datasetURL + "/update";

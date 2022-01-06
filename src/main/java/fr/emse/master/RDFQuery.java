@@ -9,12 +9,12 @@ import org.apache.jena.rdfconnection.RDFConnectionFactory;
 
 public class RDFQuery {
     public static void main(String[] args) {
-        String datasetName = "";
-        String datasetURL = "http://localhost:3030/datasetName";
+        String datasetName = "ds";
+        String datasetURL = "http://localhost:3030/" + datasetName;
         String sparqlEndpoint = datasetURL + "/sparql";
         String sparqlQuery = datasetURL + "/query";
         String graphStore = datasetURL + "/data";
-        String query = "SELECT DISTINCT ?s {?s ?p ?o}";
+        String query = "SELECT ?subject ?predicate ?object WHERE {?subject ?predicate ?object} LIMIT 100";
         RDFConnection connection = RDFConnectionFactory.connect(sparqlEndpoint, sparqlQuery, graphStore);
         QueryExecution execution = connection.query(query);
         ResultSet resultSet = execution.execSelect();

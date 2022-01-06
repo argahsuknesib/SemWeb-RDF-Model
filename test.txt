@@ -1,0 +1,1 @@
+fuseki-server --update --mem /dataset
