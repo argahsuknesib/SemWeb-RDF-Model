@@ -1,4 +1,4 @@
-package fr.emse.master;
+package fr.emse.master.query;
 
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QuerySolution;
